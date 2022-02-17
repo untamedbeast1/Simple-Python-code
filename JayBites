@@ -1,0 +1,13 @@
+print ("welcome to JayBites Resturant")
+
+name = input("Can you please enter your name.\n")
+
+print ("Welcome to JayBites " + name + ", thank you for choosing JayBites!"
+
+menu = "Burgers, wraps, Roasted turkey, Coffee, Sandwitches"
+
+print(name + ", What would you like form our menu today? Here's what we are serving. \n"+ menu)
+    
+order = input("what would you like? \n")
+    
+print("Awesome! " + name + ", we will have your " + order + " ready in a moment, Thank you.")
